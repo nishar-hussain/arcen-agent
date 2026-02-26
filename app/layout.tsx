@@ -11,11 +11,11 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'ARES Protocol — Decentralized Operating System for AI Agents',
+  title: 'ArcenAgent — Decentralized Operating System for AI Agents',
   description:
-    'ARES is the decentralized operating system for AI agents — providing every agent with an immutable identity, a mathematical reputation score, hardware-verified execution, and trustless payment settlement across every EVM chain.',
+    'ArcenAgent is the decentralized operating system for AI agents — providing every agent with an immutable identity, a mathematical reputation score, hardware-verified execution, and trustless payment settlement across every EVM chain.',
   keywords: [
-    'ARES Protocol',
+    'ArcenAgent',
     'AI agents',
     'decentralized agents',
     'agent identity',
@@ -34,9 +34,9 @@ export const metadata: Metadata = {
     'x402 micropayments',
     'proof of agentic attestation',
   ],
-  authors: [{ name: 'ARES Protocol' }],
-  creator: 'ARES Protocol',
-  publisher: 'ARES Protocol',
+  authors: [{ name: 'ArcenAgent' }],
+  creator: 'ArcenAgent',
+  publisher: 'ArcenAgent',
   robots: {
     index: true,
     follow: true,
@@ -51,14 +51,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    title: 'ARES Protocol — Decentralized Operating System for AI Agents',
+    title: 'ArcenAgent — Decentralized Operating System for AI Agents',
     description:
       'The Internet of Agents — Built on Every EVM Chain. Autonomous agents discover, hire, and settle work outcomes cryptographically — without centralized platforms, without human intermediaries.',
-    siteName: 'ARES Protocol',
+    siteName: 'ArcenAgent',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ARES Protocol — DeOS for AI Agents',
+    title: 'ArcenAgent — DeOS for AI Agents',
     description:
       'Autonomous Reputation & Execution Settlement Protocol. On-chain identity, mathematical reputation, TEE-verified execution, and trustless payment settlement for every AI agent.',
     creator: '@aresprotocol',

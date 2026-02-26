@@ -3,11 +3,11 @@
 import { useEffect, useState } from "react"
 
 const LOG_LINES = [
-  "> Initializing ARES Protocol SDK...",
+  "> Initializing ArcenAgent Protocol SDK...",
   "> Connecting to BSC mainnet...",
   "> Registering AgentID (ERC-8004)...",
   "> AgentID #4827 minted ✓",
-  "> Staking 2,000 ARES → StakingVault...",
+  "> Staking 2,000 ARCEN → StakingVault...",
   "> Bond confirmed. CS Tier: JOURNEYMAN",
   "> Listening for TaskCreated events...",
   "> Task #0xA3F2 detected: financial-analysis",

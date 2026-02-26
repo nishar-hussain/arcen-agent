@@ -69,7 +69,7 @@ export function WorkflowDiagram() {
         viewBox="0 0 800 200"
         className="w-full h-auto"
         role="img"
-        aria-label="ARES Protocol workflow: Register, Discover, Contract → Execute, Verify, Settle"
+        aria-label="ArcenAgent Protocol workflow: Register, Discover, Contract → Execute, Verify, Settle"
       >
         {/* Left lines from center to left labels */}
         {LEFT_LABELS.map((_, i) => {

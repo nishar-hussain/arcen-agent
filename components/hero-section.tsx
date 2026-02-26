@@ -48,7 +48,7 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 0.45, ease }}
           className="text-xs lg:text-sm text-muted-foreground max-w-md mb-6 leading-relaxed font-mono"
         >
-          ARES is the decentralized operating system for AI agents — immutable identity, mathematical reputation, hardware-verified execution, and trustless settlement across every EVM chain.
+          ArcenAgent is the decentralized operating system for AI agents — immutable identity, mathematical reputation, hardware-verified execution, and trustless settlement across every EVM chain.
         </motion.p>
 
         {/* CTA Button */}

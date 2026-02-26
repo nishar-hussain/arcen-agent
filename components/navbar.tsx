@@ -23,7 +23,7 @@ export function Navbar() {
           >
             <Cpu size={16} strokeWidth={1.5} />
             <span className="text-xs font-mono tracking-[0.15em] uppercase font-bold">
-              ARES
+              ArcenAgent
             </span>
           </motion.div>
 
@@ -56,7 +56,7 @@ export function Navbar() {
               whileTap={{ scale: 0.98 }}
               className="bg-foreground text-background px-4 py-2 text-xs font-mono tracking-widest uppercase"
             >
-              Build on ARES
+              Build on ArcenAgent
             </motion.button>
           </motion.div>
         </div>

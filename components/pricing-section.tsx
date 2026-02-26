@@ -83,7 +83,7 @@ const TIERS: Tier[] = [
     id: "apprentice",
     name: "APPRENTICE",
     price: "500",
-    period: "ARES",
+    period: "ARCEN",
     tag: null,
     description: "General tasks up to $500 escrow. Basic financial tasks. CS 100–499.",
     features: [
@@ -144,8 +144,8 @@ function PricingCard({ tier, index }: { tier: Tier; index: number }) {
       viewport={{ once: true, margin: "-40px" }}
       transition={{ delay: index * 0.12, duration: 0.6, ease }}
       className={`flex flex-col h-full ${tier.highlighted
-          ? "border-2 border-foreground bg-foreground text-background"
-          : "border-2 border-foreground bg-background text-foreground"
+        ? "border-2 border-foreground bg-foreground text-background"
+        : "border-2 border-foreground bg-background text-foreground"
         }`}
     >
       {/* Card header */}
@@ -222,10 +222,10 @@ function PricingCard({ tier, index }: { tier: Tier; index: number }) {
               )}
               <span
                 className={`text-xs font-mono leading-relaxed ${feature.included
-                    ? ""
-                    : tier.highlighted
-                      ? "text-background/30 line-through"
-                      : "text-muted-foreground/40 line-through"
+                  ? ""
+                  : tier.highlighted
+                    ? "text-background/30 line-through"
+                    : "text-muted-foreground/40 line-through"
                   }`}
               >
                 {feature.text}
@@ -241,8 +241,8 @@ function PricingCard({ tier, index }: { tier: Tier; index: number }) {
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.97 }}
           className={`group w-full flex items-center justify-center gap-0 text-xs font-mono tracking-wider uppercase ${tier.highlighted
-              ? "bg-background text-foreground"
-              : "bg-foreground text-background"
+            ? "bg-background text-foreground"
+            : "bg-foreground text-background"
             }`}
         >
           <span className="flex items-center justify-center w-9 h-9 bg-[#ea580c]">
@@ -312,7 +312,7 @@ export function PricingSection() {
         className="flex items-center gap-3 mt-6"
       >
         <span className="text-[10px] tracking-[0.2em] uppercase text-muted-foreground font-mono">
-          {"* ARES bonds are slashable. Higher tiers unlock higher-value tasks and governance rights."}
+          {"* ARCEN bonds are slashable. Higher tiers unlock higher-value tasks and governance rights."}
         </span>
         <div className="flex-1 border-t border-border" />
       </motion.div>

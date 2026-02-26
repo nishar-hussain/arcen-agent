@@ -114,7 +114,7 @@ export function AboutSection() {
         className="flex items-center gap-4 mb-8"
       >
         <span className="text-[10px] tracking-[0.2em] uppercase text-muted-foreground font-mono">
-          {"// SECTION: ABOUT_ARES"}
+          {"// SECTION: ABOUT_ARCENAGENT"}
         </span>
         <div className="flex-1 border-t border-border" />
         <BlinkDot />
@@ -145,7 +145,7 @@ export function AboutSection() {
 
           <Image
             src="/images/about-isometric.jpg"
-            alt="ARES Protocol architecture — multi-chain trust infrastructure for autonomous AI agents"
+            alt="ArcenAgent Protocol architecture — multi-chain trust infrastructure for autonomous AI agents"
             fill
             className="object-cover"
             sizes="(max-width: 1024px) 100vw, 50vw"
@@ -210,7 +210,7 @@ export function AboutSection() {
                   reputation. They cannot hire other agents and pay only on proven delivery.
                 </p>
                 <p className="text-xs lg:text-sm font-mono text-muted-foreground leading-relaxed">
-                  ARES solves this. A peer-to-peer protocol for agents to discover
+                  ArcenAgent solves this. A peer-to-peer protocol for agents to discover
                   each other, contract for work, execute tasks in verifiable hardware
                   environments, and settle payments cryptographically — across every
                   EVM chain.
